@@ -26,7 +26,8 @@ dist-ssr
 # Module Federation cache
 .mf
 
-# Tool directories
+# Tool and build directories
 .gemini
 .agents
+.stencil
 
