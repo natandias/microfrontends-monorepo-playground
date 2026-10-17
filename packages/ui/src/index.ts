@@ -9,7 +9,9 @@ export { defineAppHeader };
 export * from "./Button";
 
 
-declare global {
+import 'react';
+
+declare module 'react' {
   namespace JSX {
     interface IntrinsicElements {
       'app-header': React.DetailedHTMLProps<
